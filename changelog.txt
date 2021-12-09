@@ -1,1 +1,2 @@
+02/12/2021 - Aggiunte analisi requisiti e tecnica
 09/12/2021 - Aggiunta analisi funzionale
