@@ -1,10 +1,3 @@
----
-tags: [Mondadoro]
-title: Analisi dei Requisiti - Software Gestionale "Mondadoro"
-created: '2021-11-30T19:50:45.876Z'
-modified: '2021-11-30T20:23:22.360Z'
----
-
 # Analisi dei Requisiti - Software Gestionale "Mondadoro"
 ### Gestionale di un punto vendita - Modalità ASP.NET Web Forms
 
