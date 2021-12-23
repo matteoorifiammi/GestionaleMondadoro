@@ -1,4 +1,4 @@
-# Schema input e Output metodi - Software Gestionale "Mondadoro"
+# Schema input e output metodi - Software Gestionale "Mondadoro"
 ### Gestionale di un punto vendita - Modalità ASP.NET Web Forms
 
 ## Magazzino:
