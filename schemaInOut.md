@@ -11,29 +11,13 @@ graph TD
 ### Gestione dei prodotti presenti nel magazzino salvati all'interno della lista `listOfProduct()`:
 
 ### Classe `Product`:
-#### Attributi:
-- `int id` -> Id del prodotto;
-- `string name`  -> Nome del prodotto;
-- `double listPrice` -> Prezzo di acquisto/listino;
-- `double sellingPrice` -> Prezzo di vendita;
-- `int qnty` -> Quantita' del prodotto.
 
-### Sottoclasse `bookProduct : Product`:
-#### Attributi:
-- `int isbnCode` -> Codice isbn del libro;
-- `string genre` -> Genere del libro.
-
-### Sottoclasse `otherProduct : Product`:
-#### Attributo:
-- `int eanCode` -> Codice ean del prodotto;
-- `string category` -> Categoria del prodotto;
-
-#### Saranno inoltre presenti i seguenti metodi:
-- `searchProduct` -> Questo metodo permette di cercare un prodotto all'interno della lista di prodotti;
-- `addProduct` -> Questo metodo permette di aggiungere una quantita' ad un prodotto;
-- `removeProduct` -> Questo metodo permette di rimuovere una quantita' ad un prodotto;
-- `createProduct` -> Questo metodo permette di creare un nuovo prodotto;
-- `deleteProduct` -> Questo metodo permette di cancellare un prodotto.
+#### Metodi:
+- `searchProduct(productId)` -> productQuantity
+- `addProduct(productId, quantityAdd)` ->  productQuantity
+- `removeProduct(productId, quantityRemove)` ->  productQuantity
+- `createProduct(name, listPrice, sellingPrice, productQuantity)` -> void
+- `deleteProduct(productId)` -> void
 ##
 ## Organico:
 ### Gestione del personale presente nel negozio salvato all'interno della lista `listOfPeople()`:
