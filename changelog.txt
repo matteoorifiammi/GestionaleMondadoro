@@ -1,3 +1,6 @@
 02/12/2021 - Aggiunta analisi requisiti; aggiunta analisi tecnica
 09/12/2021 - Aggiunta analisi funzionale; aggiunto il logo; aggiunto schema UML; aggiunta pagina iniziale sito
 23/12/2021 - Schema delle classi con parametri in input ed output dei metodi
+13/01/2021 - Progettazione pagina web su carta
+26/01/2021 - Conclusione progettzione pagina web
+02/02/2021 - Inizio costruzione pagina web
