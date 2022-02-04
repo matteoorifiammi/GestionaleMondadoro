@@ -8,24 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Angelo\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\matte\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Angelo\\source\\repos\\gestionale_mondadoro\\gestionale_mondadoro\\gestionale_mondadoro.csproj",
+      "projectUniqueName": "C:\\Users\\matte\\OneDrive\\Documenti\\GitHub\\GestionaleMondadoro\\gestionale_mondadoro\\gestionale_mondadoro\\gestionale_mondadoro.csproj",
       "projectName": "gestionale_mondadoro",
-      "projectPath": "C:\\Users\\Angelo\\source\\repos\\gestionale_mondadoro\\gestionale_mondadoro\\gestionale_mondadoro.csproj",
-      "packagesPath": "C:\\Users\\Angelo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Angelo\\source\\repos\\gestionale_mondadoro\\gestionale_mondadoro\\obj\\",
+      "projectPath": "C:\\Users\\matte\\OneDrive\\Documenti\\GitHub\\GestionaleMondadoro\\gestionale_mondadoro\\gestionale_mondadoro\\gestionale_mondadoro.csproj",
+      "packagesPath": "C:\\Users\\matte\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\matte\\OneDrive\\Documenti\\GitHub\\GestionaleMondadoro\\gestionale_mondadoro\\gestionale_mondadoro\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Angelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\matte\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

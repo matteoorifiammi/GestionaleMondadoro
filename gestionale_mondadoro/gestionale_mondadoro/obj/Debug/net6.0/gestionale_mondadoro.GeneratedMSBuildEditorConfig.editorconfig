@@ -8,49 +8,49 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = gestionale_mondadoro
 build_property.RootNamespace = gestionale_mondadoro
-build_property.ProjectDir = C:\Users\Angelo\source\repos\gestionale_mondadoro\gestionale_mondadoro\
+build_property.ProjectDir = C:\Users\matte\OneDrive\Documenti\GitHub\GestionaleMondadoro\gestionale_mondadoro\gestionale_mondadoro\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Angelo\source\repos\gestionale_mondadoro\gestionale_mondadoro
+build_property.MSBuildProjectDirectory = C:\Users\matte\OneDrive\Documenti\GitHub\GestionaleMondadoro\gestionale_mondadoro\gestionale_mondadoro
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Angelo/source/repos/gestionale_mondadoro/gestionale_mondadoro/Pages/Error.cshtml]
+[C:/Users/matte/OneDrive/Documenti/GitHub/GestionaleMondadoro/gestionale_mondadoro/gestionale_mondadoro/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Angelo/source/repos/gestionale_mondadoro/gestionale_mondadoro/Pages/finanze.cshtml]
+[C:/Users/matte/OneDrive/Documenti/GitHub/GestionaleMondadoro/gestionale_mondadoro/gestionale_mondadoro/Pages/finanze.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZmluYW56ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Angelo/source/repos/gestionale_mondadoro/gestionale_mondadoro/Pages/Index.cshtml]
+[C:/Users/matte/OneDrive/Documenti/GitHub/GestionaleMondadoro/gestionale_mondadoro/gestionale_mondadoro/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Angelo/source/repos/gestionale_mondadoro/gestionale_mondadoro/Pages/magazzino.cshtml]
+[C:/Users/matte/OneDrive/Documenti/GitHub/GestionaleMondadoro/gestionale_mondadoro/gestionale_mondadoro/Pages/magazzino.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbWFnYXp6aW5vLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Angelo/source/repos/gestionale_mondadoro/gestionale_mondadoro/Pages/personale.cshtml]
+[C:/Users/matte/OneDrive/Documenti/GitHub/GestionaleMondadoro/gestionale_mondadoro/gestionale_mondadoro/Pages/personale.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNccGVyc29uYWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Angelo/source/repos/gestionale_mondadoro/gestionale_mondadoro/Pages/Privacy.cshtml]
+[C:/Users/matte/OneDrive/Documenti/GitHub/GestionaleMondadoro/gestionale_mondadoro/gestionale_mondadoro/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Angelo/source/repos/gestionale_mondadoro/gestionale_mondadoro/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/matte/OneDrive/Documenti/GitHub/GestionaleMondadoro/gestionale_mondadoro/gestionale_mondadoro/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Angelo/source/repos/gestionale_mondadoro/gestionale_mondadoro/Pages/_ViewImports.cshtml]
+[C:/Users/matte/OneDrive/Documenti/GitHub/GestionaleMondadoro/gestionale_mondadoro/gestionale_mondadoro/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Angelo/source/repos/gestionale_mondadoro/gestionale_mondadoro/Pages/_ViewStart.cshtml]
+[C:/Users/matte/OneDrive/Documenti/GitHub/GestionaleMondadoro/gestionale_mondadoro/gestionale_mondadoro/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Angelo/source/repos/gestionale_mondadoro/gestionale_mondadoro/Pages/Shared/_Layout.cshtml]
+[C:/Users/matte/OneDrive/Documenti/GitHub/GestionaleMondadoro/gestionale_mondadoro/gestionale_mondadoro/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ef1ti2q99i
