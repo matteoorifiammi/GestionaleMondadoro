@@ -1,10 +1,17 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "KRYQgaqJpwpdX4Vqr0Yo8b+xfGPFqOrlMogxkAJTNORgnLQsxcMuxY6kDFXqWN2QQtzw9OwH/9+EI5OYRoBylA==",
   "success": true,
   "projectFilePath": "C:\\Users\\matte\\OneDrive\\Documenti\\GitHub\\GestionaleMondadoro\\gestionale_mondadoro\\gestionale_mondadoro\\gestionale_mondadoro.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matte\\.nuget\\packages\\chart.js\\2.9.3\\chart.js.2.9.3.nupkg.sha512"
   ],
+=======
+  "dgSpecHash": "HQUTHdZ0zy2vwuJobSaEog4PnvtB9WC1ri5wGQ0uSlqlDKBP/KOK3qjbfWBVf/17wWUwc/HmmRKVKHNdgcJxgQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Angelo\\Documents\\GitHub\\GestionaleMondadoro\\gestionale_mondadoro\\gestionale_mondadoro\\gestionale_mondadoro.csproj",
+  "expectedPackageFiles": [],
+>>>>>>> 8f2b66f04617f80ab79705a5e98e1f5c2601d1b5
   "logs": []
 }
