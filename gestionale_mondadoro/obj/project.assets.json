@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\gestionale_mondadoro\\gestionale_mondadoro.csproj",
+      "projectUniqueName": "C:\\Users\\matte\\OneDrive\\Documenti\\GitHub\\GestionaleMondadoro\\gestionale_mondadoro\\gestionale_mondadoro.csproj",
       "projectName": "gestionale_mondadoro",
-      "projectPath": "C:\\gestionale_mondadoro\\gestionale_mondadoro.csproj",
+      "projectPath": "C:\\Users\\matte\\OneDrive\\Documenti\\GitHub\\GestionaleMondadoro\\gestionale_mondadoro\\gestionale_mondadoro.csproj",
       "packagesPath": "C:\\Users\\matte\\.nuget\\packages\\",
-      "outputPath": "C:\\gestionale_mondadoro\\obj\\",
+      "outputPath": "C:\\Users\\matte\\OneDrive\\Documenti\\GitHub\\GestionaleMondadoro\\gestionale_mondadoro\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\matte\\AppData\\Roaming\\NuGet\\NuGet.Config",
