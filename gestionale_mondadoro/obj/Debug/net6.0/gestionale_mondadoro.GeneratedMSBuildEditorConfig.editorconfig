@@ -19,8 +19,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/matte/OneDrive/Documenti/GitHub/GestionaleMondadoro/gestionale_mondadoro/Pages/finanze.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZmluYW56ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/matte/OneDrive/Documenti/GitHub/GestionaleMondadoro/gestionale_mondadoro/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/matte/OneDrive/Documenti/GitHub/GestionaleMondadoro/gestionale_mondadoro/Pages/magazzino.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbWFnYXp6aW5vLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/matte/OneDrive/Documenti/GitHub/GestionaleMondadoro/gestionale_mondadoro/Pages/personale.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccGVyc29uYWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/matte/OneDrive/Documenti/GitHub/GestionaleMondadoro/gestionale_mondadoro/Pages/Privacy.cshtml]
