@@ -11,3 +11,4 @@
 11/02/2022 - Continuazione costruzione pagina web
 18/02/2022 - Modifica analisi funzionale per implementare migliorie
 25/02/2022 - Conclusione costruzione pagina web e inizio implementazione bootstrap
+03/03/2022 - Pavan gioca con paint
