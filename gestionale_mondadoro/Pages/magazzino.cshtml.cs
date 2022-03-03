@@ -5,11 +5,10 @@ namespace gestionale_mondadoro.Pages
 {
     //public class StorageController : Controller
     //{
-    //    public ActionResult Magazzino()
+    //    public ActionResult Index()
     //    {
     //        string[] texts = System.IO.File.ReadAllLines("/gestionale_mondadoro/Pages/storage.txt");
-
-    //        ViewBag.texts = texts;
+    //        ViewBag.Data = texts;
     //        return View();
     //    }
     //}

@@ -2,6 +2,23 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Magazzino";
+
+    Array userData = null;
+
+    var dataFile = "Pages/storage.txt";
+    userData = System.IO.File.ReadAllLines(dataFile);
+
+  
+
+    //public class StorageController : Controller
+    //{
+    //    public ActionResult Index()
+    //    {
+    //        string[] texts = System.IO.File.ReadAllLines("/gestionale_mondadoro/Pages/storage.txt");
+    //        ViewBag.Data = texts;
+    //        return View();
+    //    }
+    //}
 }
 
 <div class="text-center">
@@ -143,13 +160,23 @@
 
             </div>
 
-            @*<div class="row">
-                @foreach (string? text in ViewBag.Data)
+
+
+            <div class="row">
+                @*@foreach (string texts in ViewBag.Data)
                 {
-                    <h5>@text</h5>
+                    <h5>@texts</h5>
                     <br />
-                }
-            </div>*@
+                }*@
+
+                @foreach (string dataLine in userData) {
+                    <li>
+                        <ul>
+                            <li>@userData</li>
+                        </ul>
+                    </li>
+                 }
+            </div>
         </div>
         
     </div>
