@@ -5,6 +5,9 @@
 
     string[] userData;
     userData = System.IO.File.ReadAllLines("Pages/storage.txt");
+    string text = string.Concat(userData);
+    string[] words = text.Split(',');
+
 }
 
 <div class="text-center">
@@ -143,16 +146,21 @@
                         </div>
                     </div>
                 </div>
-
             </div>
 
-
-
             <div class="row">
-                @foreach (string dataLine in userData) {
-                    <ul>
-                        <li>@userData</li>
-                    </ul>
+                @foreach (var word in words)
+                {
+                    <div class="container">
+                        <div class="row storage-item">
+                            <div class="col-10">
+                                <h3><strong>Nome: </strong>@word</h3>
+                            </div>
+                            <div class="col-2">
+                                <h4>Cancella</h4>
+                            </div>
+                        </div>
+                    </div>
                 }
             </div>
         </div>
