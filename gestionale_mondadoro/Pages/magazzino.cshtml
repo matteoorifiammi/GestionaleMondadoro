@@ -3,22 +3,8 @@
 @{
     ViewData["Title"] = "Magazzino";
 
-    Array userData = null;
-
-    var dataFile = "Pages/storage.txt";
-    userData = System.IO.File.ReadAllLines(dataFile);
-
-  
-
-    //public class StorageController : Controller
-    //{
-    //    public ActionResult Index()
-    //    {
-    //        string[] texts = System.IO.File.ReadAllLines("/gestionale_mondadoro/Pages/storage.txt");
-    //        ViewBag.Data = texts;
-    //        return View();
-    //    }
-    //}
+    string[] userData;
+    userData = System.IO.File.ReadAllLines("Pages/storage.txt");
 }
 
 <div class="text-center">
@@ -163,19 +149,11 @@
 
 
             <div class="row">
-                @*@foreach (string texts in ViewBag.Data)
-                {
-                    <h5>@texts</h5>
-                    <br />
-                }*@
-
                 @foreach (string dataLine in userData) {
-                    <li>
-                        <ul>
-                            <li>@userData</li>
-                        </ul>
-                    </li>
-                 }
+                    <ul>
+                        <li>@userData</li>
+                    </ul>
+                }
             </div>
         </div>
         
