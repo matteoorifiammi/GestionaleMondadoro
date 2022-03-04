@@ -8,23 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\matte\\.nuget\\packages\\": {},
+    "C:\\Users\\Angelo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matte\\Documents\\GitHub\\GestionaleMondadoro\\gestionale_mondadoro\\gestionale_mondadoro.csproj",
+      "projectUniqueName": "C:\\Users\\Angelo\\Documents\\GitHub\\GestionaleMondadoro\\gestionale_mondadoro\\gestionale_mondadoro.csproj",
       "projectName": "gestionale_mondadoro",
-      "projectPath": "C:\\Users\\matte\\Documents\\GitHub\\GestionaleMondadoro\\gestionale_mondadoro\\gestionale_mondadoro.csproj",
-      "packagesPath": "C:\\Users\\matte\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matte\\Documents\\GitHub\\GestionaleMondadoro\\gestionale_mondadoro\\obj\\",
+      "projectPath": "C:\\Users\\Angelo\\Documents\\GitHub\\GestionaleMondadoro\\gestionale_mondadoro\\gestionale_mondadoro.csproj",
+      "packagesPath": "C:\\Users\\Angelo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Angelo\\Documents\\GitHub\\GestionaleMondadoro\\gestionale_mondadoro\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\matte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Angelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -68,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
