@@ -3,11 +3,10 @@
 @{
     ViewData["Title"] = "Magazzino";
 
-    string[] userData;
-    userData = System.IO.File.ReadAllLines("Pages/storage.txt");
-    string text = string.Concat(userData);
+    string[] txtFile;
+    txtFile = System.IO.File.ReadAllLines("Pages/storage.txt");
+    string text = string.Concat(txtFile);
     string[] words = text.Split(',');
-
 }
 
 <div class="text-center">
@@ -154,10 +153,10 @@
                     <div class="container">
                         <div class="row storage-item">
                             <div class="col-10">
-                                <h3><strong>Nome: </strong>@word</h3>
+                                <h5><strong>Nome: </strong>@word <strong>Qta: </strong></h5>
                             </div>
                             <div class="col-2">
-                                <h4>Cancella</h4>
+                                <h5>Cancella</h5>
                             </div>
                         </div>
                     </div>
