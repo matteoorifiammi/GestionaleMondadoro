@@ -1,0 +1,64 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Mondadoro
+build_property.RootNamespace = Mondadoro
+build_property.ProjectDir = C:\Users\Angelo\Documents\GitHub\GestionaleMondadoro\Mondadoro\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Angelo\Documents\GitHub\GestionaleMondadoro\Mondadoro
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Angelo/Documents/GitHub/GestionaleMondadoro/Mondadoro/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Angelo/Documents/GitHub/GestionaleMondadoro/Mondadoro/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Angelo/Documents/GitHub/GestionaleMondadoro/Mondadoro/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Angelo/Documents/GitHub/GestionaleMondadoro/Mondadoro/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Angelo/Documents/GitHub/GestionaleMondadoro/Mondadoro/Pages/Storage/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RvcmFnZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Angelo/Documents/GitHub/GestionaleMondadoro/Mondadoro/Pages/Storage/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RvcmFnZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Angelo/Documents/GitHub/GestionaleMondadoro/Mondadoro/Pages/Storage/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RvcmFnZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Angelo/Documents/GitHub/GestionaleMondadoro/Mondadoro/Pages/Storage/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RvcmFnZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Angelo/Documents/GitHub/GestionaleMondadoro/Mondadoro/Pages/Storage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RvcmFnZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Angelo/Documents/GitHub/GestionaleMondadoro/Mondadoro/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Angelo/Documents/GitHub/GestionaleMondadoro/Mondadoro/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Angelo/Documents/GitHub/GestionaleMondadoro/Mondadoro/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-r4hh01xbyd

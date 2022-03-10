@@ -1,0 +1,37 @@
+﻿@page
+@model Mondadoro.Pages.Storage.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Storage</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Storage.Nome)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Storage.Nome)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Storage.Categoria)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Storage.Categoria)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Storage.Prezzo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Storage.Prezzo)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Storage.ID">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>
