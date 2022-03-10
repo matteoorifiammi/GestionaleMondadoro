@@ -1,5 +1,0 @@
-pane,3,
-pasta,4,
-gelato,5,
-panino,6,
-skateboard,7
