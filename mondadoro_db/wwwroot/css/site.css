@@ -16,3 +16,36 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/*******************************/
+
+.nav-title{
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.fw-400{
+  font-weight: 400;
+}
+
+.title-sub{
+  font-size: 0.813rem;
+}
+
+.storage-page {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding-bottom: 5rem;
+}
+
+.storage-page-button-row {
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 2rem;
+  padding-bottom: 3rem;
+}
+
+.storage-item{
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+}

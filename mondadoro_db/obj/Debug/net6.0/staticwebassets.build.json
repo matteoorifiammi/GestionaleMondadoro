@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8NM5EAFyUa5wejpmoEG2cpKDKL+whRdPEZaVuT4rDtM=",
+  "Hash": "pzi4PaY0YLwq8IICvQRtf4DVb4MI5ytO6GoEjoi6nbE=",
   "Source": "mondadoro_db",
   "BasePath": "_content/mondadoro_db",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Angelo\\Documents\\GitHub\\GestionaleMondadoro\\mondadoro_db\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\mondadoro_db.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Angelo\\Documents\\GitHub\\GestionaleMondadoro\\mondadoro_db\\wwwroot\\assets\\logo.png",
+      "SourceId": "mondadoro_db",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Angelo\\Documents\\GitHub\\GestionaleMondadoro\\mondadoro_db\\wwwroot\\",
+      "BasePath": "_content/mondadoro_db",
+      "RelativePath": "assets/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\logo.png"
     },
     {
       "Identity": "C:\\Users\\Angelo\\Documents\\GitHub\\GestionaleMondadoro\\mondadoro_db\\wwwroot\\css\\site.css",

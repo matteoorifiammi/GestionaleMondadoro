@@ -5,6 +5,16 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-3 mt-5 fw-400">Benvenuto</h1>
+    <div class="row mt-5 pt-5">
+        <div class="col-4">
+            <a class="btn btn-dark btn-lg" href="/Items">Magazzino</a>
+        </div>
+        <div class="col-4">
+            <a class="btn btn-dark btn-lg" asp-area="" asp-page="/personale">Personale</a>
+        </div>
+        <div class="col-4">
+            <a class="btn btn-dark btn-lg" asp-area="" asp-page="/finanze">Finanze</a>
+        </div>
+    </div>
 </div>

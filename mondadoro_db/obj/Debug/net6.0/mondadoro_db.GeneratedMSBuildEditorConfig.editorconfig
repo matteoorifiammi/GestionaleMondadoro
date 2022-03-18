@@ -19,6 +19,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Angelo/Documents/GitHub/GestionaleMondadoro/mondadoro_db/Pages/finanze.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZmluYW56ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Angelo/Documents/GitHub/GestionaleMondadoro/mondadoro_db/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -41,6 +45,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Angelo/Documents/GitHub/GestionaleMondadoro/mondadoro_db/Pages/Items/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSXRlbXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Angelo/Documents/GitHub/GestionaleMondadoro/mondadoro_db/Pages/personale.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccGVyc29uYWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Angelo/Documents/GitHub/GestionaleMondadoro/mondadoro_db/Pages/Privacy.cshtml]
