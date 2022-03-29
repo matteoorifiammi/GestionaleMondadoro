@@ -5,44 +5,49 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1>Dettagli del Prodotto</h1>
 
 <div>
-    <h4>Item</h4>
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Item.Name)
+            @*@Html.DisplayNameFor(model => model.Item.Name)*@
+            Nome del Prodotto
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Item.Name)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Item.Category)
+            @*@Html.DisplayNameFor(model => model.Item.Category)*@
+            Categoria
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Item.Category)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Item.ListPrice)
+            @*@Html.DisplayNameFor(model => model.Item.ListPrice)*@
+            Prezzo di Listino
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Item.ListPrice)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Item.SellingPrice)
+            @*@Html.DisplayNameFor(model => model.Item.SellingPrice)*@
+            Prezzo di Vendita
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Item.SellingPrice)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Item.Quantity)
+            @*@Html.DisplayNameFor(model => model.Item.Quantity)*@
+            Quantita'
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Item.Quantity)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Item.ProductCode)
+            @*@Html.DisplayNameFor(model => model.Item.ProductCode)*@
+            Codice Prodotto
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Item.ProductCode)
@@ -50,6 +55,6 @@
     </dl>
 </div>
 <div>
-    <a asp-page="./Edit" asp-route-id="@Model.Item.ID">Edit</a> |
-    <a asp-page="./Index">Back to List</a>
+    <a asp-page="./Edit" asp-route-id="@Model.Item.ID">Modifica</a> |
+    <a asp-page="./Index">Torna Indietro</a>
 </div>
