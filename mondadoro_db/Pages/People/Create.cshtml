@@ -1,0 +1,53 @@
+﻿@page
+@model mondadoro_db.Pages.People.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Creazione Persona</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Person.Nome" class="control-label"></label>
+                <input asp-for="Person.Nome" class="form-control" />
+                <span asp-validation-for="Person.Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Person.Cognome" class="control-label"></label>
+                <input asp-for="Person.Cognome" class="form-control" />
+                <span asp-validation-for="Person.Cognome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Person.Sesso" class="control-label"></label>
+                <input asp-for="Person.Sesso" class="form-control" />
+                <span asp-validation-for="Person.Sesso" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Person.Stipendio" class="control-label"></label>
+                <input asp-for="Person.Stipendio" class="form-control" />
+                <span asp-validation-for="Person.Stipendio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                Numero di Matricola
+                <input asp-for="Person.NumeroMatricola" class="form-control" />
+                <span asp-validation-for="Person.NumeroMatricola" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Crea" class="btn btn-primary my-3" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Torna Indietro</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

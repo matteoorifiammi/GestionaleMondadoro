@@ -3,6 +3,8 @@
 
 @{
     ViewData["Title"] = "Index";
+
+    
 }
 
 <h1 class="fw-400">Magazzino</h1>
@@ -14,27 +16,21 @@
     <thead>
         <tr>
             <th>
-                @*@Html.DisplayNameFor(model => model.Item[0].Name)*@
                 Nome Prodotto
             </th>
             <th>
-                @*@Html.DisplayNameFor(model => model.Item[0].Category)*@
                 Categoria
             </th>
             <th>
-                @*@Html.DisplayNameFor(model => model.Item[0].ListPrice)*@
                 Prezzo di Listino
             </th>
             <th>
-                @*@Html.DisplayNameFor(model => model.Item[0].SellingPrice)*@
                 Prezzo di Vendita
             </th>
             <th>
-                @*@Html.DisplayNameFor(model => model.Item[0].Quantity)*@
                 Quantita'
             </th>
             <th>
-                @*@Html.DisplayNameFor(model => model.Item[0].ProductCode)*@
                 Codice Prodotto
             </th>
             <th></th>
@@ -64,7 +60,9 @@
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.ID">Modifica</a> |
                 <a asp-page="./Details" asp-route-id="@item.ID">Dettagli</a> |
-                <a asp-page="./Delete" asp-route-id="@item.ID">Rimuovi</a>
+                <a asp-page="./Delete" asp-route-id="@item.ID">Rimuovi</a> |
+                <a asp-page="./Sell" asp-route-id="@item.ID" class="btn btn-primary btn-lg">Vendi</a>
+               
             </td>
         </tr>
 }

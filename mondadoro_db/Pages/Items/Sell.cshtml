@@ -1,0 +1,36 @@
+﻿@page
+@model mondadoro_db.Pages.Items.SellModel
+@{
+    ViewData["Title"] = "Sell";
+}
+
+<h1>Vendi un Prodotto</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Item.ID"/>
+            <div class="form-group">
+                Quantita' venduta:
+                @{
+                    int sellQnty = 0;
+                    <input name="sellQnty" type="number" class="form-control" />
+                    <span asp-validation-for="@sellQnty" class="text-danger"></span>
+                }
+            </div>
+            <div class="form-group my-3">
+                <input type="submit" value="Vendi" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Torna Indietro</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

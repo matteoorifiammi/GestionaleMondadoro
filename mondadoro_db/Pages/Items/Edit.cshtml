@@ -14,37 +14,31 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Item.ID" />
             <div class="form-group">
-                @*<label asp-for="Item.Name" class="control-label"></label>*@
                 Nome del Prodotto
                 <input asp-for="Item.Name" class="form-control" />
                 <span asp-validation-for="Item.Name" class="text-danger"></span>
             </div>
             <div class="form-group">
-                @*<label asp-for="Item.Category" class="control-label"></label>*@
                 Categoria
                 <input asp-for="Item.Category" class="form-control" />
                 <span asp-validation-for="Item.Category" class="text-danger"></span>
             </div>
             <div class="form-group">
-                @*<label asp-for="Item.ListPrice" class="control-label"></label>*@
                 Prezzo di Listino
                 <input asp-for="Item.ListPrice" class="form-control" />
                 <span asp-validation-for="Item.ListPrice" class="text-danger"></span>
             </div>
             <div class="form-group">
-                @*<label asp-for="Item.SellingPrice" class="control-label"></label>*@
                 Prezzo di Vendita
                 <input asp-for="Item.SellingPrice" class="form-control" />
                 <span asp-validation-for="Item.SellingPrice" class="text-danger"></span>
             </div>
             <div class="form-group">
-                @*<label asp-for="Item.Quantity" class="control-label"></label>*@
                 Quantita'
                 <input asp-for="Item.Quantity" class="form-control" />
                 <span asp-validation-for="Item.Quantity" class="text-danger"></span>
             </div>
             <div class="form-group">
-                @*<label asp-for="Item.ProductCode" class="control-label"></label>*@
                 Codice Prodotto
                 <input asp-for="Item.ProductCode" class="form-control" />
                 <span asp-validation-for="Item.ProductCode" class="text-danger"></span>

@@ -11,8 +11,8 @@ using mondadoro_db.Data;
 namespace mondadoro_db.Migrations
 {
     [DbContext(typeof(mondadoro_dbContext))]
-    [Migration("20220318084817_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20220329141835_Double1")]
+    partial class Double1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -35,8 +35,8 @@ namespace mondadoro_db.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("ListPrice")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<float>("ListPrice")
+                        .HasColumnType("real");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -49,8 +49,8 @@ namespace mondadoro_db.Migrations
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
-                    b.Property<decimal>("SellingPrice")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<float>("SellingPrice")
+                        .HasColumnType("real");
 
                     b.HasKey("ID");
 

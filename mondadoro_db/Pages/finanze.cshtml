@@ -1,18 +1,22 @@
 ﻿@page
-@model IndexModel
+@model mondadoro_db.Pages.FinanzeModel
 @{
-    ViewData["Title"] = "Finanze";
+
+    double balance;
+    StreamReader sr = new StreamReader("./Pages/Shared/balance.txt");
+    balance = Convert.ToDouble(sr.ReadLine());
+    sr.Close();
 }
 
+<h1>Area Finanze</h1>
+<h5>In questa pagina e' possibile vedere una stima del bilancio corrente in base alle vendite effettuate recentemente.</h5>
+
+<hr />
+
 <div class="text-center">
-    <h1 class="display-3 mt-5 fw-400">Area Finanze</h1>
     <div class="row mt-5 pt-5 storage-page">
         <div class="col-6">
-            <h5 class="display-5 mt-5 fw-400">Il bilancio ammonta a:</h5><br />
-            <h5 class="display-3 fw-400"><strong>100,000,000.00€</strong></h5>
-        </div>
-        <div class="col-6">
-            <h5 class="display-3 fw-400"><strong>grafico grafico grafico grafico grafico grafico grafico grafico grafico grafico grafico grafico grafico grafico </strong></h5>
+            <h3 class="mt-5 fw-400">Il bilancio corrente <strong>stimato</strong> ammonta a: <strong>@balance €</strong></h3><br />
         </div>
     </div>
 </div>

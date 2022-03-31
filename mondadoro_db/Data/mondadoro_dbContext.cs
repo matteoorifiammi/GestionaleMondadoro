@@ -16,5 +16,7 @@ namespace mondadoro_db.Data
         }
 
         public DbSet<mondadoro_db.Models.Item> Item { get; set; }
+
+        public DbSet<mondadoro_db.Models.Person> Person { get; set; }
     }
 }

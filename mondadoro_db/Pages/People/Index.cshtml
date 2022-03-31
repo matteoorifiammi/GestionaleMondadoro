@@ -1,0 +1,60 @@
+﻿@page
+@model mondadoro_db.Pages.People.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Personale</h1>
+
+<p>
+    <a asp-page="Create">Aggiungi</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Person[0].Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Person[0].Cognome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Person[0].Sesso)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Person[0].Stipendio)
+            </th>
+            <th>
+                Numero di Matricola
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Person) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cognome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sesso)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Stipendio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumeroMatricola)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ID">Modifica</a> |
+                <a asp-page="./Details" asp-route-id="@item.ID">Dettagli</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ID">Rimuovi</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

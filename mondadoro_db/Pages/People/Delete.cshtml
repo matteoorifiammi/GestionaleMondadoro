@@ -1,0 +1,51 @@
+﻿@page
+@model mondadoro_db.Pages.People.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Rimuvoi</h1>
+
+<h3>Sei sicuro di voler rimuovere questa persona?</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Person.Nome)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Person.Nome)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Person.Cognome)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Person.Cognome)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Person.Sesso)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Person.Sesso)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Person.Stipendio)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Person.Stipendio)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Person.NumeroMatricola)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Person.NumeroMatricola)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Person.ID" />
+        <input type="submit" value="Rimuovi" class="btn btn-danger" /> |
+        <a asp-page="./Index">Torna Indietro</a>
+    </form>
+</div>
