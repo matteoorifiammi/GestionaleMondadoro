@@ -4,18 +4,17 @@ using Microsoft.EntityFrameworkCore;
 using mondadoro_db.Models;
 using System.IO;
 
-
 namespace mondadoro_db.Pages.Items
 {
-    public class SellModel : PageModel
+    public class BuyModel : PageModel
     {
         private readonly mondadoro_db.Data.mondadoro_dbContext _context;
 
-        public SellModel(mondadoro_db.Data.mondadoro_dbContext context) => _context = context;
+        public BuyModel(mondadoro_db.Data.mondadoro_dbContext context) => _context = context;
 
         public Item Item { get; set; }
 
-        public async Task<IActionResult> OnPostAsync(int? id, int sellQnty)
+        public async Task<IActionResult> OnPostAsync(int? id, int buyQnty)
         {
             if (id == null)
                 return NotFound();
@@ -25,16 +24,18 @@ namespace mondadoro_db.Pages.Items
             if (Item == null)
                 return NotFound();
 
-            Item.Quantity = Item.Quantity - sellQnty;
+            Item.Quantity = Item.Quantity + buyQnty;
 
-            while (Item.Quantity < 0)
-                return RedirectToPage("./QntyError");
+            //Item.Quantity = Item.Quantity - sellQnty;
+
+            //while (Item.Quantity < 0)
+            //    return RedirectToPage("./QntyError");
 
 
             double balance;
             StreamReader sr = new StreamReader("./Pages/Shared/balance.txt");
             balance = Convert.ToDouble(sr.ReadLine());
-            balance += (sellQnty * Item.SellingPrice) - (sellQnty * Item.ListPrice);
+            balance -= (buyQnty * Item.ListPrice);
             sr.Close();
             StreamWriter sw = new StreamWriter("./Pages/Shared/balance.txt");
             sw.WriteLine(balance);

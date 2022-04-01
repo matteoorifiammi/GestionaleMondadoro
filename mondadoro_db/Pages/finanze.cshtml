@@ -16,7 +16,20 @@
 <div class="text-center">
     <div class="row mt-5 pt-5 storage-page">
         <div class="col-6">
-            <h3 class="mt-5 fw-400">Il bilancio corrente <strong>stimato</strong> ammonta a: <strong>@balance €</strong></h3><br />
+            <h3 class="mt-5 fw-400">Il bilancio corrente <strong>stimato</strong> ammonta a: 
+                @if(balance > 0)
+                {
+                    <strong style="color: green">@balance €</strong>
+                }
+                else if(balance < 0)
+                {
+                    <strong style="color: red">@balance €</strong>
+                }
+                else
+                {
+                    <strong>@balance €</strong>
+                }
+            <br />
         </div>
     </div>
 </div>
