@@ -11,3 +11,11 @@
 11/02/2022 - Continuazione costruzione pagina web
 18/02/2022 - Modifica analisi funzionale per implementare migliorie
 25/02/2022 - Conclusione costruzione pagina web e inizio implementazione bootstrap
+04/03/2022 - Conclusione implementazione bootstrap
+10/03/2022 - Troubleshooting problemi compatibilità tra Asp.Net e Windows 11
+11/03/2022 - Troubleshooting problemi compatibilità tra Asp.Net e Windows 11
+17/03/2022 - Implementazione database nella sezione "Magazzino"
+18/03/2022 - Terminazione database della sezione "Magazzino" e inizio sezione "Personale"
+24/03/2022 - Troubleshooting problemi compatibilità tra Asp.Net e Windows 11
+25/03/2022 - Terminazione sezione "Personale", completamento sezione "Finanze" e inizio interazione tra sezioni
+31/03/2022 - Connclusione dettagli e compilazione della relazione finale. 
