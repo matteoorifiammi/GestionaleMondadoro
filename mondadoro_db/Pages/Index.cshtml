@@ -4,17 +4,48 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-3 mt-5 fw-400">Benvenuto</h1>
-    <div class="row mt-5 pt-5">
-        <div class="col-4">
-            <a class="btn btn-dark btn-lg" href="/Items">Magazzino</a>
+<div class="container">
+    <div class="row text-center">
+        <h1 class="display-3 mt-5 fw-400">Benvenuto!</h1>
+    </div>
+    <div class="row text-center my-5">
+         <div class="col-6 ">
+            <a class="btn btn-primary btn-lg" href="/Items">Magazzino</a>
         </div>
-        <div class="col-4">
-            <a class="btn btn-dark btn-lg" href="/People">Personale</a>
+        <div class="col-6">
+            <a class="btn btn-primary btn-lg" href="/People">Personale</a>
         </div>
-        <div class="col-4">
-            <a class="btn btn-dark btn-lg" asp-area="" asp-page="/finanze">Finanze</a>
+    </div>
+    <div class="row text-center my-sm-5">
+        <div class="col-12">
+            <a class="btn btn-primary btn-lg" asp-area="" asp-page="/finanze">Finanze</a>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-10 mx-auto border border-dark rounded" style="">
+            <div class="row my-2 border-bottom border-dark text-center">
+                <h3 class="fw-bold">⚠Novita' recenti⚠</h3>
+            </div>
+            <div class="row my-2 border-bottom border-dark">
+                <h3 class="fw-bold">🫂|Nuove assunzioni</h3>
+                <a href=""><h5>www.recruit.net/job/mondadoro</h5></a>
+            </div>
+            <div class="row my-2 border-bottom border-dark">
+                <h3 class="fw-bold">🏗️|Ristrutturazioni in corso</h3>
+                <h5>Si avvisa che sono cominciate le ristrutturazioni del locale</h5>
+            </div>
+            <div class="row my-2 border-bottom border-dark">
+                <h3 class="fw-bold">🎄|Vacanze di Natale</h3>
+                <h5>Si avvisa che a breve ci saranno le vacanze Natalizie</h5>
+            </div>
+            <div class="row my-2 border-bottom border-dark">
+                <h3 class="fw-bold">👒|Restyling del negozio</h3>
+                <h5>Si avvisa che il negozio subira' un restyling</h5>
+            </div>
+            <div class="row my-2 border-dark">
+                <h3 class="fw-bold">🛒|Apertura del negozio</h3>
+                <h5>Apre il negozio!</h5>
+            </div>
         </div>
     </div>
 </div>

@@ -16,7 +16,7 @@
                 Quantita' venduta:
                 @{
                     int sellQnty = 0;
-                    <input name="sellQnty" type="number" class="form-control" />
+                    <input name="sellQnty" type="number" class="form-control" min="0"/>
                     <span asp-validation-for="@sellQnty" class="text-danger"></span>
                 }
             </div>
